@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="TestNG_Learning" verbose="1" >
+  <test name="My Application Test" >
+    <classes>
+       <class name="LearningTestNG.SellingBooks" />
+    </classes>
+  </test>
+ 
+   <test name="SellingBooks" >
+    <classes>
+       <class name="LearningTestNG.TestNG_Demo" />
+    </classes>
+  </test>
+ 
+</suite>
